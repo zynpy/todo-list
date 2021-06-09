@@ -9,11 +9,11 @@ import org.springframework.data.couchbase.core.mapping.Document;
 @Setter
 @Getter
 public class User {
-
     @Id
     private Integer id;
-
     private String name;
-
+    private String lastName;
+    private String userName;
     private String email;
+    private String password;
 }

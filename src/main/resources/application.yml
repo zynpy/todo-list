@@ -1,1 +1,12 @@
+spring:
+  security:
+    user:
+      name: admin
+      password: password
+  couchbase:
+    connection-string: couchbase://127.0.0.1
+    username: todousr
+    password: 199137
+    bucket-todo: todo
+    bucket-user: user
 
